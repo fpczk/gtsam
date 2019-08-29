@@ -138,7 +138,7 @@ set(CPACK_GENERATOR        "TGZ" CACHE STRING "CPack Default Binary Generator")
 
 if(MSVC)
 	# By default, boost only builds static libraries on windows
-	set(Boost_USE_STATIC_LIBS ON)  # only find static libs
+	#set(Boost_USE_STATIC_LIBS ON)  # only find static libs
 	# If we ever reset above on windows and, ...
 	# If we use Boost shared libs, disable auto linking.
 	# Some libraries, at least Boost Program Options, rely on this to export DLL symbols.

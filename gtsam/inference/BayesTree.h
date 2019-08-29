@@ -61,7 +61,7 @@ namespace gtsam {
    * \nosubgrouping
    */
   template<class CLIQUE>
-  class BayesTree
+  class GTSAM_EXPORT BayesTree
   {
   protected:
     typedef BayesTree<CLIQUE> This;
